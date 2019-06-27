@@ -1,42 +1,26 @@
 # Space Race
-### CS6 Capstone Project
+### Lambda School CS6 Capstone Project
 
-### To Start:
-1. Fork this repo to your account.
-2. Clone your forked repo to your preferred directory.
-
-
-### For The Front End:
-1. In the Frontend Directory, run `yarn install` or `npm install` to gather React resources.
-2. Test that the dependencies are installed correctley by running `yarn start` or `npm start`. 
-
-#### Note: It should run, but there may be errors until the back end is online.
+### Overview
+Space Race is a React/Django Web Application desgined for teachers to quiz students in a fun and engaging way.
+Teachers can make quizes compromised of individual questions and set up teams of students. Once the teacher sends 
+the students a link to the the quiz, the students answer the questions, and are shown real-time progress of how their team is 
+ranking against the other teams.
+[https://space--race.herokuapp.com]
 
 
-### For The Back End:
-1. In the Backend Directory, run `pipenv shell` (Note: The backend uses Python v3.6.2).
-2. Once in the virtual environment, run `./manage.py install` (alternatively, you can run `py manage.py install` or `python manage.py install`), to install the backend dependencies.
-3. Test that the dependencies installed correctly by running `./manage.py runserver`.
 
-### Test The Application:
-1. With dependencies for both ends installed, start by running `./manage.py runserver` in the backend directory.
-2. In a new shell, run `yarn start` or `npm start` to start the React Server.
+### My Contributions
+For this Lambda School Capstone Project, I had the responsiblity of working as a Front-End Engineer.
+My contributions included Using React and Redux to build out the signin, signup, settings and student join race pages.
 
 
-From here, the React window should open up, displaying sample data loaded from the API. You can also switch to one of the following:
-* http://127.0.0.1:8000/api
-* http://127.0.0.1:8000/admin
-* http://127.0.0.1:8000/team
 
-The api route will display all currently added and stored teams. The team route can be further specified by id (1, 2, 3 etc.) to display the information for a specific team.
-Finally, the admin route will bring you to the Django Admin interface, where you can log in with a superuser account to manage the api.
+### Contributers
+Clara Andrew-Wani [https://github.com/clarakosi] - Back-End Engineer, Styling
 
-### To log in, first create a superuser.
-From the virtual environment:
-Run `./manage.py createsuperuser`
-It will prompt you to create a user name. Create your username and hit enter.
-From there it will ask for an email. This is not necessary. Simply hit enter to skip it.
-Finally, it will ask for a password. It will NOT accept common passwords, so make it unique. It will give one final prompt to confirm the password.
+Travis Simpson [https://github.com/tsimpson] - Back-End Engineer , Styling
 
-From there the superuser is created and you can now access the admin route! 
+Alif [https://github.com/sendsent]- Back-End Engineer
 
+Franz Fernando [https://github.com/FJF616]- Front-End Engineer
